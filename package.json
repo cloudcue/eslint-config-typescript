@@ -1,6 +1,6 @@
 {
   "name": "@cloudcue/eslint-config-typescript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eslint-config-typescript for cloudcue",
   "author": "Nick Laurie",
   "license": "ISC",
@@ -44,6 +44,5 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^5.2.3 || ^6.0.0 || ^7.0.0-0",
     "typescript": "*"
-  },
-  "gitHead": "8a4369d944fe09c03f25c2deb03ba856ab03b576"
+  }
 }
