@@ -1,0 +1,48 @@
+{
+  "name": "@cloudcue/eslint-config-typescript",
+  "version": "0.1.1",
+  "description": "eslint-config-typescript for cloudcue",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "internal.js",
+    "vue-internal.js",
+    "vue.js"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick <nlaurie@metafig.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudcue/cloudcue-client.git"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-vue": "next",
+    "typescript": "^4.0.3",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^5.2.3 || ^6.0.0 || ^7.0.0-0"
+  },
+  "dependencies": {
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint-config-prettier": "^6.12.0",
+    "vue-eslint-parser": "^7.1.0"
+  },
+  "gitHead": "8a4369d944fe09c03f25c2deb03ba856ab03b576"
+}
